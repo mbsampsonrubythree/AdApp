@@ -8,6 +8,30 @@
   display: inline-block;
   border: 2px solid black;
   box-shadow: 1px 1px 1px gray;
+
+  h2{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+}
+
+#book-filter-content{
+  min-width: 350px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid red;
+  padding: 25px;
+  margin-left: 50px;
+  text-align: center;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  a {
+    margin: 10px 0;
+  }
 }
 
 .book-item{
