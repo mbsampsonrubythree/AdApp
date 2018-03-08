@@ -23,12 +23,17 @@
 
  body {
    font-size: 14px;
+   margin: 0 0 100px;
+ }
+
+ html{
+   position: relative;
+   min-height: 100%;
  }
 
  #navbar{
-   border: 1px solid black;
    min-height: 100px;
-   min-width: 600px;
+   min-width: 650px;
  }
 
  #navbar-logo-img{
@@ -65,4 +70,24 @@
  #navbar-login-content a:hover{
    color: black;
    background-color: white;
+ }
+
+ #main-container{
+   min-width: 650px;
+   border: 1px solid red;
+   margin-left: 100px;
+ }
+
+ footer {
+   background: black;
+   height: 50px;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+ }
+
+ footer img {
+   height: 40px;
+   float: right;
+   margin: 7px 15px;
  }
