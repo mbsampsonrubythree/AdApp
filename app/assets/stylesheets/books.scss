@@ -2,10 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+#book-container{
+  min-width: 700px;
+  padding: 25px;
+  display: inline-block;
+  border: 1px solid red;
+}
+
 .notice-area {
   min-height: 50px;
-  width: 100%;
-  background-color: green;
+  width: 900px;
   text-align: center;
   font-weight: bold;
   color: green;

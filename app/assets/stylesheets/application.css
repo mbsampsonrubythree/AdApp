@@ -24,6 +24,7 @@
  body {
    font-size: 14px;
    margin: 0 0 100px;
+   min-width: 1250px;
  }
 
  html{
@@ -73,8 +74,7 @@
  }
 
  #main-container{
-   min-width: 650px;
-   border: 1px solid red;
+   min-width: 1200px;
    margin-left: 100px;
  }
 
