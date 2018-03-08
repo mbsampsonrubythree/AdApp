@@ -29,3 +29,23 @@ Book.create!(
   image: 'http://via.placeholder.com/100x150',
   description: 'Fusce et neque urna. Aenean finibus nibh sit amet elit bibendum, et maximus ante ullamcorper. Mauris mattis quam elit, eu tempor neque euismod eget. Vestibulum risus diam, sodales vitae est eu, dictum bibendum purus. Ut convallis mollis ex in facilisis. Donec tincidunt sed augue at sodales. Aliquam ornare lorem a tristique faucibus. Integer ornare turpis est, at dignissim nunc volutpat ac. Etiam in finibus ex. Aenean posuere eleifend interdum. Nulla ac auctor ante.'
 )
+
+puts "generated book seeds"
+
+Category.create!(
+  name: "General"
+)
+
+Category.create!(
+  name: "Science"
+)
+
+Category.create!(
+  name: "Politics"
+)
+
+Category.create!(
+  name: "Business"
+)
+
+puts "generated category seeds"

@@ -20,8 +20,7 @@
 
 <div id="book-filter-content">
   <h2>Categories</h2>
-  <p>test link</p>
-  <p>test link</p>
-  <p>test link</p>
-  <p>test link</p>
+  <% @categories.each do |category| %>
+    <%= link_to category.name, '/' %>
+  <% end %>
 </div>

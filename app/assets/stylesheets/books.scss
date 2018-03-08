@@ -19,7 +19,8 @@
   min-width: 350px;
   vertical-align: top;
   display: inline-block;
-  border: 1px solid red;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px gray;
   padding: 25px;
   margin-left: 50px;
   text-align: center;
@@ -30,7 +31,35 @@
   }
 
   a {
+    display: block;
     margin: 10px 0;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+}
+
+.book-form-container{
+  width: 500px;
+  border: 2px solid black;
+  padding: 25px;
+  h1{
+    margin-bottom: 25px;
+  }
+  .field {
+    margin: 10px 0;
+  }
+
+  .field input {
+    width: 400px;
+  }
+
+  .field textarea{
+    width: 400px;
+    height: 100px;
+    padding: 5px;
   }
 }
 
