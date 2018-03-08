@@ -9,6 +9,16 @@
   </head>
 
   <body>
+    <div id="navbar">
+      <div id="navbar-login-content">
+        <%= link_to 'Sign Up', '/' %>
+        <%= link_to 'Login', '/' %>
+      </div>
+      <div id="navbar-logo-img">
+        <%= image_tag 'logo.png'%>
+        <h1>Trello Library</h1>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
