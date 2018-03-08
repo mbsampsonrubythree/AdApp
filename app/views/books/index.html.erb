@@ -2,8 +2,17 @@
   <p id="notice"><%= notice %></p>
 </div>
 
-<div id="book-container">
+<div id="books-container">
   <% @books.each do |book| %>
-    <h3><%= book.title %></h3>
+    <div class="book-item">
+      <div class="book-item-img">
+        <%= image_tag book.image %>
+      </div>
+      <div class="book-item-content">
+        <h3><%= book.title %></h3>
+        <br>
+        <p><%= book.description %></p>
+      </div>
+    </div>
   <% end %>
 </div>

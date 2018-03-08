@@ -2,11 +2,35 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#book-container{
-  min-width: 700px;
+#books-container{
+  min-width: 750px;
   padding: 25px;
   display: inline-block;
-  border: 1px solid red;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.book-item{
+  width: 700px;
+  height: 200px;
+  margin: 10px 0;
+
+  .book-item-img{
+    float: left;
+    img{
+      width: 100px;
+    }
+  }
+
+  .book-item-content{
+    width: 598px;
+    overflow: hidden;
+    padding-left: 15px;
+    p {
+      font-size: 0.9em;
+    }
+  }
+
 }
 
 .notice-area {

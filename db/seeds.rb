@@ -7,9 +7,25 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Book.create!(
-  title: 'Space Exploration: The Dark Age'
+  title: 'Space Exploration: The Dark Age',
+  image: 'http://via.placeholder.com/100x150',
+  description: 'Fusce et neque urna. Aenean finibus nibh sit amet elit bibendum, et maximus ante ullamcorper. Mauris mattis quam elit, eu tempor neque euismod eget. Vestibulum risus diam, sodales vitae est eu, dictum bibendum purus. Ut convallis mollis ex in facilisis. Donec tincidunt sed augue at sodales. Aliquam ornare lorem a tristique faucibus. Integer ornare turpis est, at dignissim nunc volutpat ac. Etiam in finibus ex. Aenean posuere eleifend interdum. Nulla ac auctor ante.'
 )
 
 Book.create!(
-  title: 'How to Win Friends and Influence Others'
+  title: 'The Journey of a Lifetime',
+  image: 'http://via.placeholder.com/100x150',
+  description: 'Fusce et neque urna. Aenean finibus nibh sit amet elit bibendum, et maximus ante ullamcorper. Mauris mattis quam elit, eu tempor neque euismod eget. Vestibulum risus diam, sodales vitae est eu, dictum bibendum purus. Ut convallis mollis ex in facilisis. Donec tincidunt sed augue at sodales. Aliquam ornare lorem a tristique faucibus. Integer ornare turpis est, at dignissim nunc volutpat ac. Etiam in finibus ex. Aenean posuere eleifend interdum. Nulla ac auctor ante.'
+)
+
+Book.create!(
+  title: 'Hagrid Potter',
+  image: 'http://via.placeholder.com/100x150',
+  description: 'Fusce et neque urna. Aenean finibus nibh sit amet elit bibendum, et maximus ante ullamcorper. Mauris mattis quam elit, eu tempor neque euismod eget. Vestibulum risus diam, sodales vitae est eu, dictum bibendum purus. Ut convallis mollis ex in facilisis. Donec tincidunt sed augue at sodales. Aliquam ornare lorem a tristique faucibus. Integer ornare turpis est, at dignissim nunc volutpat ac. Etiam in finibus ex. Aenean posuere eleifend interdum. Nulla ac auctor ante.'
+)
+
+Book.create!(
+  title: 'Lord of the Trilogy',
+  image: 'http://via.placeholder.com/100x150',
+  description: 'Fusce et neque urna. Aenean finibus nibh sit amet elit bibendum, et maximus ante ullamcorper. Mauris mattis quam elit, eu tempor neque euismod eget. Vestibulum risus diam, sodales vitae est eu, dictum bibendum purus. Ut convallis mollis ex in facilisis. Donec tincidunt sed augue at sodales. Aliquam ornare lorem a tristique faucibus. Integer ornare turpis est, at dignissim nunc volutpat ac. Etiam in finibus ex. Aenean posuere eleifend interdum. Nulla ac auctor ante.'
 )

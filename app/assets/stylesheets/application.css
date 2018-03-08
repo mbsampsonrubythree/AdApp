@@ -59,6 +59,7 @@
    border: 2px solid black;
    margin: 10px 35px;
    text-align: center;
+   box-shadow: 1px 1px 1px gray;
  }
 
  #navbar-login-content a{
