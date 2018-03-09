@@ -4,6 +4,7 @@
 
 <div class="books-container">
   <h2>Books List</h2>
+  <% if @books.count != 0 %>
   <% @books.each do |book| %>
     <div class="book-item">
       <div class="book-item-img">
@@ -20,6 +21,9 @@
         </div>
       <% end %>
     </div>
+  <% end %>
+  <% else %>
+    <h5>There are no books in this category yet.</h5>
   <% end %>
 </div>
 

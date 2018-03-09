@@ -13,6 +13,11 @@ class BooksController < ApplicationController
   def show
   end
 
+  def category
+    @books = Book.where(category_id: params[:category])
+    @categories = Category.all
+  end
+
   # GET /books/new
   def new
     @book = Book.new
